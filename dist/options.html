@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>options</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="options">
+    <p>
+        <label for="jenkinsUrls">Jenkins</label>
+        <textarea id="jenkinsUrls"></textarea>
+    </p>
+
+    <p id="savedMessage" style="display: none;">
+        Settings saved. Restart chrome, please.
+    </p>
+
+    <div id="actions" class="row" style="display: none;">
+        <button type="button" class="hold" id="defaults">Defaults</button>
+        <div class="push"></div>
+        <button type="button" class="hold" id="cancel">Cancel</button>
+        <button type="button" class="hold" id="save">Save</button>
+    </div>
+</main>
+
+<script src="options.js"></script>
+</body>
+</html>

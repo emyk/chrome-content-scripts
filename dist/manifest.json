@@ -7,13 +7,14 @@
     "scripts": ["build.js"]
   },
 
-  "options_page": "options/options.html",
+  "options_page": "options.html",
   "options_ui": {
-    "page": "options/options.html",
+    "page": "options.html",
     "chrome_style": true
   },
 
   "permissions": [
+    "storage",
     "tabs",
     "notifications",
     "http://*/",
