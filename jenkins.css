@@ -1,8 +1,0 @@
-.bigtable tr:hover {
-    background: #ccc!important;
-}
-
-.bigtable td:nth-child(3n+1),
-.bigtable td:nth-child(4n+1) {
-    max-width: 150px;
-}

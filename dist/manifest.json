@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "scripts",
+  "version": "0.0.1",
+
+  "background": {
+    "scripts": ["build.js"]
+  },
+
+  "options_page": "options/options.html",
+  "options_ui": {
+    "page": "options/options.html",
+    "chrome_style": true
+  },
+
+  "permissions": [
+    "tabs",
+    "notifications",
+    "http://*/",
+    "https://*/"
+  ]
+}
