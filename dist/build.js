@@ -33,7 +33,6 @@ chrome.windows.onCreated.addListener(function () {
         var urls = items.jenkinsUrls;
 
         chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
-            console.log('lols', urls);
             if (!urls || !urls.length || !Array.isArray(urls)) {
                 return;
             }
