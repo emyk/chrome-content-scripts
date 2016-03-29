@@ -13,6 +13,11 @@ textarea {
     width: 100%;
 }
 
+.alert {
+    color: #ff0000;
+    font-weight: bold;
+}
+
 .row {
     display: flex;
 }
