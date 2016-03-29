@@ -5,9 +5,9 @@
   "main": "init.js",
   "scripts": {
     "build-main": "browserify lib/index.js -t babelify -o dist/build.js -v",
-    "watch-main": "watchify lib/index.js -t babelify -o dist/build.js -v",
+    "watch-main": "watchify lib/index.js -t babelify -o dist/build.js -v -d",
     "build-options": "browserify lib/options.js -t babelify -o dist/options.js -v",
-    "watch-options": "watchify lib/options.js -t babelify -o dist/options.js -v",
+    "watch-options": "watchify lib/options.js -t babelify -o dist/options.js -v -d",
     "build": "npm run build-main | npm run build-options",
     "watch": "npm run watch-main | npm run watch-options"
   },
