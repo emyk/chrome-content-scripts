@@ -1,5 +1,5 @@
 .options {
-    width: 300px;
+    width: 500px;
 }
 
 label {
@@ -10,6 +10,11 @@ textarea {
     box-sizing: border-box;
     display: block;
     height: 70px;
+    width: 50%;
+}
+
+textarea.huge {
+    height: 200px;
     width: 100%;
 }
 
